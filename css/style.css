@@ -315,62 +315,6 @@ header {
     top: -323px;
     left: 347px;
 }
-.ui-widget {
-    font-family: 'Inter', sans-serif;
-}
- .ui-widget.ui-widget-content {
-    border: none;
-}
- .ui-widget-content {
-    border: none;
-    background: transparent;
-    color: inherit;
-}
-.ui-tabs .ui-tabs-panel {
-    border-width: 0;
-    padding: 0;
-    background: none;
-}
-.ui-tabs .ui-tabs-nav {
-    padding: 0;
-}
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
-    border: none;
-    background: transparent;
-    font-weight: normal;
-    color: inherit;
-}
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
-    border: none;
-    background: transparent;
-    color: inherit;
-}
-.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
-    color: inherit;
-}
-.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
-    float: none;
-    padding: inherit;
-    text-decoration: none;
-}
-.ui-widget-header {
-    border: none;
-    background: transparent;
-}
-.ui-tabs .ui-tabs-nav li.ui-tabs-active {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-.ui-tabs .ui-tabs-nav li {
-    list-style: none;
-    float: left;
-    position: relative;
-    top: 0;
-    margin: 0;
-    border-bottom-width: 0;
-    padding: 0;
-    white-space: nowrap;
-}
 #tabs {
     position: relative;
 }
@@ -543,3 +487,64 @@ header {
     border: 10px solid transparent;
     border-bottom: 10px solid #E31B1B;
  }
+ .tarif {
+     display: grid;
+     grid-template: repeat(4, 1fr) / 1fr 1fr;
+ }
+ .tarif-item {
+     border-bottom: 1px solid #F3F2F0;
+ }
+ .tarif-title {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.tarif-description {
+    font-size: 28px;
+    line-height: 150%;
+    opacity: 0.8;
+}
+.tarif-name {
+    font-size: 28px;
+    line-height: 150%;
+}
+.tarif-text {
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.8;
+}
+.tarif .project {
+    display: inline-flex;
+}
+.tarif-pack {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 700;
+}
+.tarif-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.tarif-list-item {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.tarif-list-item::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #F3F2F0;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 2px);
+}
+.tarif-price {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 150%;
+}
