@@ -27,7 +27,13 @@
                     <li class="nav-item"><a class="nav-link" href="mailto:alexdev@gmail.com">alexdev@gmail.com</a></li>
                 </ul>
             </header>
-            <img class="photo" src="img/photo.png" alt="Photo">
+            <div class="header-mobile">
+                <a class="nav-link" href="tel:+79237777777">8 923 777-77-77</a>
+                <button id="opener" class="menu"><img src="img/icons/menu.svg" alt="Menu"></button>
+            </div>
+            <div class="photo">
+                <img src="img/photo.png" alt="Photo">
+            </div>
             <main>  
                 <div class="main">
                     <svg class="circle circle-main" viewBox="0 0 253 253" xmlns="http://www.w3.org/2000/svg">
@@ -320,7 +326,7 @@
                     <div class="advantages-item">
                         <div class="advantages-image">
                             <svg viewBox="0 0 40 48" xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_d)">
+                                <g>
                                 <path d="M27.5166 0H4.76562V40H35.2344V7.71773L27.5166 0ZM28.2031 4.00102L31.2334 7.03125H28.2031V4.00102ZM32.8906 37.6562H7.10938V2.34375H25.8594V9.375H32.8906V37.6562Z"  />
                                 <path d="M28.2008 14.1406H11.7969V16.4844H28.2008V14.1406Z"  />
                                 <path d="M28.2008 18.8281H11.7969V21.1719H28.2008V18.8281Z"  />
@@ -377,39 +383,181 @@
             </section>
             <section class="section-tarif">
                 <div class="tarif">
-                    <div class="tarif-item tarif-title">
-                        <p>Тарифы</p>
+                    <div class="tarif-title">
+                        <div>
+                            <svg class="circle circle-tarif" viewBox="0 0 253 253" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="126.5" cy="126.5" r="126.5"/>
+                            </svg>
+                            <p>Тарифы</p>
+                        </div>
                     </div>
-                    <div class="tarif-item tarif-description">
-                        <p>Представленные ниже цены зависят не только от того какой сайт вы хотите. Конечная цена будет озвучена после прочтения Вашего ТЗ</p>
+                    <div class="tarif-description">
+                        <p>Представленные ниже цены зависят не&nbsp;только от того какой сайт вы хотите. Конечная цена будет озвучена после прочтения Вашего ТЗ</p>
+                    </div>
+                    <div class="tarif-item tarif-left">
+                        <div class="tarif-header">
+                            <p class="tarif-name">Разработка<br>лэндинга или сайт визитки</p>
+                            <p class="tarif-text">Небольшой сайт состоящий из одной страницы</p>
+                        </div>
+                        <div class="tarif-footer">
+                            <p class="project"><span>Обсудить проект</span><span class="project-img"></span></p>
+                        </div>
                     </div>
                     <div class="tarif-item">
-                        <p class="tarif-name">Разработка лэндинга или сайт визитки</p>
-                        <p class="tarif-text">Небольшой сайт состоящий из одной страницы</p>
-                        <p class="project"><span>Обсудить проект</span><span class="project-img"></span></p>
-                    </div>
-                    <div class="tarif-item">
-                        <p class="tarif-pack">Что входит</p>
-                        <ul class="tarif-list">
-                            <li class="tarif-list-item">Сайт на CMS WordPress</li>
-                            <li class="tarif-list-item">Одна посадочная страница</li>
-                            <li class="tarif-list-item">От 7 дней</li>
-                        </ul>
-                        <p class="tarif-price">От 7 000 Р</p>
+                        <div class="terif-header">
+                            <p class="tarif-pack">Что входит</p>
+                            <ul class="tarif-list">
+                                <li class="tarif-list-item">Сайт на CMS WordPress</li>
+                                <li class="tarif-list-item">Одна посадочная страница</li>
+                                <li class="tarif-list-item">От 7 дней</li>
+                            </ul>
+                        </div>
+                        <div class="tarif-footer">
+                            <svg class="circle circle-price" viewBox="0 0 253 253" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="126.5" cy="126.5" r="126.5"/>
+                            </svg>
+                            <p class="tarif-price">От 7 000 Р</p>
+                        </div>
                         
+                        
+                    </div>
+                    <div class="tarif-item tarif-left">
+                        <div class="tarif-header">
+                            <p class="tarif-name">Разработка<br>лэндинга или сайт визитки</p>
+                            <p class="tarif-text">Небольшой сайт состоящий из одной страницы</p>
+                        </div>
+                        <div class="tarif-footer">
+                            <p class="project"><span>Обсудить проект</span><span class="project-img"></span></p>
+                        </div>
+                    </div>
+                    <div class="tarif-item">
+                        <div class="terif-header">
+                            <p class="tarif-pack">Что входит</p>
+                            <ul class="tarif-list">
+                                <li class="tarif-list-item">Сайт на CMS WordPress</li>
+                                <li class="tarif-list-item">Одна посадочная страница</li>
+                                <li class="tarif-list-item">От 7 дней</li>
+                            </ul>
+                        </div>
+                        <div class="tarif-footer">
+                            <p class="tarif-price">От 7 000 Р</p>
+                        </div>
+                    </div>
+                    <div class="tarif-item tarif-left">
+                        <div class="tarif-header">
+                            <p class="tarif-name">Разработка<br>лэндинга или сайт визитки</p>
+                            <p class="tarif-text">Небольшой сайт состоящий из одной страницы</p>
+                        </div>
+                        <div class="tarif-footer">
+                            <p class="project"><span>Обсудить проект</span><span class="project-img"></span></p>
+                        </div>
+                    </div>
+                    <div class="tarif-item">
+                        <div class="terif-header">
+                            <p class="tarif-pack">Что входит</p>
+                            <ul class="tarif-list">
+                                <li class="tarif-list-item">Сайт на CMS WordPress</li>
+                                <li class="tarif-list-item">Одна посадочная страница</li>
+                                <li class="tarif-list-item">От 7 дней</li>
+                            </ul>
+                        </div>
+                        <div class="tarif-footer">
+                            <svg class="circle circle-price" viewBox="0 0 253 253" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="126.5" cy="126.5" r="126.5"/>
+                            </svg>
+                            <p class="tarif-price">От 7 000 Р</p>
+                        </div>
                     </div>
                 </div>
             </section>
+            <section class="section-form">
+                <div class="form">
+                    <div class="form-title">
+                        <svg class="circle circle-form" viewBox="0 0 253 253" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="126.5" cy="126.5" r="126.5"/>
+                        </svg>
+                        <svg class="triangle triangle-form" width="66" height="72" viewBox="0 0 66 72"  xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33 0L65.909 71.25H0.0910339L33 0Z" />
+                        </svg> 
+                        <p>
+                            Расскажите<br>о своем проекте
+                        </p>
+                    </div>
+                    <div class="form-description">
+                        <p>Воспользуйтесь формой обратной связи, чтобы обсудить ваш проект, заполните все поля, и я свяжусь с&nbsp;вами в&nbsp;ближайшее время</p>
+                    </div>
+                    <div class="form-item form-social">
+                        <ul class="nav nav-social">
+                            <li class="nav-item"><a class="nav-link" href="#" target="_blank">Vk</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" target="_blank">Instagram</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" target="_blank">Linkedin</a></li>
+                        </ul>
+                    </div>
+                    <div class="form-item">
+                        <form>
+                            <label>Телефон или почта</label>
+                            <input type="text" placeholder="Введите телефон">
+                            <label for="communicate">Выберите удобный способ связи</label>
+                            <select name="communicate" id="communicate">
+                                <option>Telegram</option>
+                                <option>WhatsApp</option>
+                                <option>Viber</option>
+                                <option>Звонок на телефон</option>
+                                <option>SMS сообщение</option>
+                            </select>
+                            <input type="submit" value="Отправить">
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="footer-top">
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Обо мне</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Портфолио</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Этапы работ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Цены</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Обратная связь</a></li>
+                    </ul>
+                    <ul class="nav nav-info">
+                        <li class="nav-item"><a class="nav-link" href="tel:+79237777777">8 923 777-77-77</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mailto:alexdev@gmail.com">alexdev@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2020, Все права защищены</p>
+                    <p>Сделано в рамках курса учебной платформы <a class="footer-link" href="">Frontend Blok</a></p>
+                </div>
+            </footer>
         </div>
         <footer></footer>
     </div>
+    <div id="dialog" title="Basic dialog">
+        <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+      </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
     <script src="script/jquery-ui.min.js"></script>
     <script>
         $( function() {
           $("#tabs").tabs({ active: 0});
           $( document ).tooltip();
-        } );
+          $( "#communicate" ).selectmenu();
+          $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+                effect: "blind",
+                duration: 1000
+            },
+            hide: {
+                effect: "blind",
+                duration: 1000
+            }
+            });
+        
+            $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+            });
+        });
         $( ".tech-image" ).tooltip({
             position: {
                 my: "center top",
